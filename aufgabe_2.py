@@ -1,4 +1,4 @@
-month = input("geben Sie einen Monat ein:")
+month = input("geben Sie einen Monat ein:\n")
 list30 = ("April", "Juni", "September", "November")
 list28 = "Februar"
 if month in list30:
