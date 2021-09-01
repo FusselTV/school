@@ -11,6 +11,8 @@ elif task == "5":
     import aufgabe_5
 elif task == "6":
     import aufgabe_6
+elif task == "7":
+    import aufgabe_7
 elif task == "8":
     import aufgabe_8
 else:
