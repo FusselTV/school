@@ -1,6 +1,6 @@
-a = 0
-list = []
-while a < 3:
-    list.append(input("Gibt eine Zahl " + str(a) + " ein!\n"))
-    a += 1
-print("Die größte Zahl ist", max(list))
+i = 0
+numbers = ["erste", "zweite", "dritte"]
+while i < 3:
+    numbers[i] = int(input("Gibt die " + numbers[i] + " Zahl ein: ")) # int() is very important lulW
+    i += 1
+print("\nDie größte Zahl ist", max(numbers), "!") # don't know how to remove space sadPepe

@@ -1,9 +1,9 @@
-month = input("geben Sie einen Monat ein:\n")
-list30 = ("April", "Juni", "September", "November")
-list28 = "Februar"
-if month in list30:
-    print("Der", month, "ist 30 Tage lang")
-elif month in list28:
-    print("Der", month, "ist 28 Tage lang")
+month = input("geben Sie einen Monat ein: ")
+days30 = ("April", "Juni", "September", "November")
+days28 = "Februar"
+if month in days30:
+    print("\nDer", month, "ist 30 Tage lang!")
+elif month in days28:
+    print("\nDer", month, "ist 28 Tage lang!")
 else:
-    print("Der", month, "ist 31 Tage lang")
+    print("\nDer", month, "ist 31 Tage lang!")

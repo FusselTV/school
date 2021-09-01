@@ -1,8 +1,8 @@
-year = int(input("Bitte Jahres Zahl eingeben!\n"))
+year = int(input("Bitte Jahres Zahl eingeben: "))
 if year % 400 == 0:
-    print("Dem Jahr", year, "wird ein Schalttag hinzugefügt")
+    print("\nDem Jahr", year, "wird ein Schalttag hinzugefügt!")
     exit()
 if year % 4 == 0 and year % 100 != 0:
-    print("Das Jahr", year, "ist ein Schaltjahr")
+    print("\nDas Jahr", year, "ist ein Schaltjahr!")
 else:
-    print("Das Jahr", year, "ist kein Schaltjahr")
+    print("\nDas Jahr", year, "ist kein Schaltjahr!")
