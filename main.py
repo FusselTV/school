@@ -15,5 +15,7 @@ elif task == "7":
     import aufgabe_7
 elif task == "8":
     import aufgabe_8
+elif task == "9":
+    import aufgabe_9
 else:
     print("Die Aufgabe ist nicht verfügbar!")
