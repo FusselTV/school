@@ -3,7 +3,7 @@ Calculation form https://www.omnicalculator.com/sports/elo
 Make sure every Clan has 1400 Elo at start!
 """
 from math import pow
-K = 30 #constant K use 30 to make it like PvPGym
+K = 31 #constant K use 30 to make it like PvPGym
 
 ratA = int(input("Gebe die Elo für SWA ein!\nElo: "))
 ratB = int(input("Gebe die Elo für Heroes ein!\nElo: "))
