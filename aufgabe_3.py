@@ -10,4 +10,4 @@ try:
     else:
         ex
 except:
-    print("####")
+    print("Error")
